@@ -91,7 +91,7 @@
 									<ul>
 										<li>
 											<label class="start-quiz-item">
-												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box">
+												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box last-question">
 												<span class="exp-number text-uppercase">A</span>
 												<span class="exp-label">Não</span>
 												<span class="checkmark-border"></span>
@@ -99,7 +99,7 @@
 										</li>
 										<li>
 											<label>
-												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box">
+												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box last-question">
 												<span class="exp-number text-uppercase">B</span>
 												<span class="exp-label">1 Vez por semana</span>
 												<span class="checkmark-border"></span>
@@ -107,7 +107,7 @@
 										</li>
 										<li>
 											<label>
-												<input type="radio" name="quiz" value="2 vezes por semana" class="exp-option-box">
+												<input type="radio" name="quiz" value="2 vezes por semana" class="exp-option-box last-question">
 												<span class="exp-number text-uppercase">C</span>
 												<span class="exp-label">2 Vezes por semana</span>
 												<span class="checkmark-border"></span>
@@ -115,7 +115,7 @@
 										</li>
 										<li>
 											<label>
-												<input type="radio" name="quiz" value="SEO" class="exp-option-box">
+												<input type="radio" name="quiz" value="SEO" class="exp-option-box last-question">
 												<span class="exp-number text-uppercase">D</span>
 												<span class="exp-label">3 ou mais vezes por semana</span>
 												<span class="checkmark-border"></span>
@@ -138,7 +138,7 @@
 	<script src="assets/js/form-step.js"></script>
 	<script src="assets/js/jquery.validate.min.js"></script>
 	<script type="text/javascript">
-		$('.exp-option-box').click(function(){
+		$('.last-question').click(function(){
 		   window.location.href='/funnel/';
 		})
 	   </script>
