@@ -19,6 +19,23 @@
 		display:none;
 	}
 	</style>
+	<!-- Meta Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '702603494323572');
+	fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=702603494323572&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -47,7 +64,7 @@
 						</div>
 					  </div><br>
 					  <div class="top-p noshow">
-							<a href="" class="a-btn" style="text-decoration: none;">
+							<a href="https://pay.kiwify.com.br/fjOeAiB" class="a-btn" style="text-decoration: none;">
 							<span class="span-btn">SIM QUERO OBTER ACESSO AGORA!</span>
 							<span class="span-btn2">(atenção: vagas limitadas)</span>
 							</a>
@@ -256,8 +273,8 @@
 						  </tbody>
 					   </table>
 					</div>
-					<button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button>
-					<div style="display:none" id="more">
+					<!-- <button class="fb-comments-loadmore" onclick="javascript:loadMore();">Carregar mais 5 comentários</button> -->
+					<div  id="more">
 					   <div class="fb-comments-wrapper">
 						  <table class="fb-comments-comment" id="10">
 							 <tbody>
@@ -396,7 +413,7 @@
 					</div>
 				 </div>
 				 <div id="cta2" class="mt-4">
-					<a href="" class="a-btn" style="text-decoration: none;">
+					<a href="https://pay.kiwify.com.br/fjOeAiB" class="a-btn" style="text-decoration: none;">
 					<span class="span-btn">QUERO OBTER ACESSO!</span>
 					<span class="span-btn2">(atenção: vagas limitadas)</span>
 					</a>
@@ -406,14 +423,14 @@
 		</div>
 	</section>
 	<footer class="bg-dark py-3 text-center">
-	   <div class="text-white"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Pol铆tica de Privacidade</a></div>
+	   <div class="text-white"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
 	</footer>
 	<script type="text/javascript">
 			$('.exp-option-box').click(function(){
 		   window.location.href='/funnel/';
 		})
 	   setTimeout(() => {
-		$('.moshow').remove();
+		$('.noshow').show();
 	   }, 1637000); // temporiza莽茫o da Call to Action (em milissegundos)
 	</script>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
