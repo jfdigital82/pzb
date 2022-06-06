@@ -32,7 +32,7 @@
 
 <body>
 	<div class="quiz-top-area text-center">
-		<h1 style="color:yellow" >Está tudo certo, responda as perguntas abaixo para ter acesso ao conteúdo</h1>
+		<h1 style="color:yellow" >Está bien, responda la pregunta a continuación para obtener acceso al contenido.</h1>
 		<div class="quiz-countdown text-center ul-li">
 			
 		</div>
@@ -49,45 +49,26 @@
 				</ul>
 			</div>
 			<div class="step-inner-content clearfix position-relative">
-				<form class="multisteps-form__form" action="https://jthemes.net/themes/html/BeWizard/Quiz/thank-you.html" id="wizard" method="POST">
+				<form class="multisteps-form__form"  id="wizard" method="POST">
 					<div class="form-area position-relative">
 						<div class="multisteps-form__panel  js-active" data-animation="fadeIn">
 							<div class="wizard-forms clearfix position-relative black">
 								<div class="quiz-title text-center">
-									<span>Pergunta 1</span>
-									<h2>Porque você quer ter acesso a esse conteúdo?</h2>
+									<h2>seleccione una opción a continuación</h2>
 								</div>
 								<div class="quiz-option-selector clearfix">
 									<ul>
 										<li>
-											<label class="start-quiz-item">
-												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next">
-												<span class="exp-number text-uppercase">A</span>
-												<span class="exp-label">Quero ter um corpo saúdavel</span>
+											<label class="start-quiz-item" style="text-align: center;">
+												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next last">
+												<span class="exp-label">Hombres</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
-										<li>
-											<label>
-												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box js-btn-next">
-												<span class="exp-number text-uppercase">B</span>
-												<span class="exp-label">Quero me alimentar melhor</span>
-												<span class="checkmark-border"></span>
-											</label>
-										</li>
-										<li>
-											<label>
-												<input type="radio" name="quiz" value="2 vezes por semana" class="exp-option-box js-btn-next">
-												<span class="exp-number text-uppercase">c</span>
-												<span class="exp-label">Quero ir a praia</span>
-												<span class="checkmark-border"></span>
-											</label>
-										</li>
-										<li>
-											<label>
-												<input type="radio" name="quiz" value="SEO" class="exp-option-box js-btn-next">
-												<span class="exp-number text-uppercase">d</span>
-												<span class="exp-label">Quero ficar bem comigo</span>
+                                        <li>
+											<label class="start-quiz-item" style="text-align: center;">
+												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box js-btn-next last">
+												<span class="exp-label">Mujeres</span>
 												<span class="checkmark-border"></span>
 											</label>
 										</li>
@@ -95,65 +76,20 @@
 								</div>
 							</div>
 						</div>
-						<!-- step 1 -->
-						<div class="multisteps-form__panel" data-animation="fadeIn">
-							<div class="wizard-forms clearfix position-relative">
-								<div class="quiz-title text-center">
-									<span>Pergunta 2</span>
-									<h2>Você promete não contar nada para niguem?</h2>
-								</div>
-								<div class="quiz-option-selector clearfix">
-									<ul>
-										<li>
-											<label class="start-quiz-item">
-												<input type="radio" name="quiz" value="Nenhuma" class="exp-option-box last-question">
-												<span class="exp-number text-uppercase">A</span>
-												<span class="exp-label">Não</span>
-												<span class="checkmark-border"></span>
-											</label>
-										</li>
-										<li>
-											<label>
-												<input type="radio" name="quiz" value="1 Vez por seman" class="exp-option-box last-question">
-												<span class="exp-number text-uppercase">B</span>
-												<span class="exp-label">Sim não vou falar nada</span>
-												<span class="checkmark-border"></span>
-											</label>
-										</li>
-										<li>
-											<label>
-												<input type="radio" name="quiz" value="2 vezes por semana" class="exp-option-box last-question">
-												<span class="exp-number text-uppercase">C</span>
-												<span class="exp-label">Vou contar para todas minhas amigas</span>
-												<span class="checkmark-border"></span>
-											</label>
-										</li>
-										<li>
-											<label>
-												<input type="radio" name="quiz" value="SEO" class="exp-option-box last-question">
-												<span class="exp-number text-uppercase">D</span>
-												<span class="exp-label">Vou contar somente para parentes</span>
-												<span class="checkmark-border"></span>
-											</label>
-										</li>
-									</ul>
-								</div>
-								
-							</div>
-						</div>
-			
-						</div>
+                    </div>
 				</form>
 			</div>
 		</div>
 	</div>
-
+    	<footer style="text-align: center;">
+		<p>© 2022 – Todos los derechos reservados. Este sitio no forma parte ni está avalado por Facebook. Facebook es una marca comercial de Facebook, Inc.</p>
+	</footer>
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/form-step.js"></script>
 	<script src="assets/js/jquery.validate.min.js"></script>
 	<script type="text/javascript">
-		$('.last-question').click(function(){
+		$('.last').click(function(){
 		   window.location.href='/funnel/';
 		})
 	   </script>
